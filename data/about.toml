@@ -1,0 +1,53 @@
+# Section title
+# Replace the 'avatar.jpg' under 'static/img' with your own image.
+title = "About me"
+bio = " I am preparing a engineer degree by apprenticeship at Telecom SudParis. I am a radio engineer in the **Regulatory Affairs at Bouygues Telecom**. I am looking for a two months international internship. My research mainly in EU (France excluded) but open to other suggestions. for human people. [My CV](img/cv.pdf)"
+
+[[skills]]
+	name = "Network"
+	value = 8
+
+[[skills]]
+	name = "Management"
+	value = 7
+
+[[skills]]
+	name = "Telecommunications"
+	value = 10
+
+[[skills]]
+	name = "Marketing"
+	value = 8
+
+[[skills]]
+	name = "Opating system"
+	value = 7
+
+[[skills]]
+	name = "Languages"
+	value = 6
+
+[[skills]]
+	name = "Programming"
+	value = 6
+
+[[skills]]
+	name = "Netflix and Chill"
+	value = 10
+
+
+[[projects]]
+    name = "Reserve opérationnelle"
+    folder = "proj-1"
+
+[[projects]]
+    name = "Passions"
+    folder = "proj-2"
+
+[[projects]]
+    name = "Associations"
+    folder = "proj-3"
+
+[[projects]]
+    name = "Goal"
+    folder = "proj-4"

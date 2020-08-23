@@ -1,0 +1,26 @@
+# Section title
+title = "Détails"
+
+[[projects]]
+    name = "Reserve opérationnelle"
+    folder = "proj-1"
+
+[[projects]]
+    name = "Passions"
+    folder = "proj-2"
+
+[[projects]]
+    name = "Associations"
+    folder = "proj-3"
+
+[[projects]]
+    name = "Projet Chop'INT"
+    folder = "proj-4"
+
+[[projects]]
+    name = "Projet DUT"
+    folder = "proj-5"
+
+[[projects]]
+    name = "Portfolio"
+    folder = "proj-6"

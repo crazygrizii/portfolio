@@ -1,0 +1,27 @@
+# Section title
+title = "Education"
+
+[[list]]
+    avatar = "TSP.png"
+    name   = "Engineer degree in Networks"
+    title  = "Telecom SudParis - Institut Polytechnique de Paris"
+    link   = "https://www.telecom-sudparis.eu/"
+    quote  = "This *engineer course* give me the way to think about things differently, futhermore it permit me to upgradde my reflexion ans work on project"
+    date   = 2021  
+
+
+[[list]]
+    avatar = "IUT.png"
+    name   = "University degree specialized in Networks and Telecommunications"
+    title  = "Saint-Malo’s IUT"
+    link   = "https://iut-stmalo.univ-rennes1.fr/formations/dut/r%C3%A9seaux-et-t%C3%A9l%C3%A9communications"
+    quote  = "I followed this two years of university course in **apprenticeship**, it allowed me to accumulate an important additional professional experience and get the basics on IT sector."
+    date   = 2018
+
+[[list]]
+    avatar = "lycee.jpg"
+    name   = "A Level advanced in Computer Science"
+    title  = "Lycée Charles Augustin Coulomb"
+    link   = "https://www.lyceecharlescoulomb.fr/"
+    quote  = "It was my **first diploma** obtened with distinction in relation with computer science. I choose to continue on this way because I was curious to discover about work our phone, our PC and technologies"
+    date   = 2016

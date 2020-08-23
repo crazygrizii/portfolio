@@ -1,0 +1,53 @@
+{{ "<!-- Worker section -->" | safeHTML }}
+<section class="section-workers">
+  {{ with .Site.Data.worker.title }}
+  <h3 id="workers">{{ . }}</h3>
+  {{ end }}
+
+  <div class="workers-mobile-nav">
+    {{ range $i, $e := .Site.Data.worker.list }} {{ if eq $i 0 }}
+    <span class="active-worker"></span>
+    {{ else }}
+    <span></span>
+    {{ end }} {{ end }}
+  </div>
+
+  <div class="workers-belt">
+    {{ range $i, $e := .Site.Data.worker.list }}
+    <div class="worker-unit {{ if eq $i 0 }}active-worker{{ end }}">
+      <!-- CONDITIONAL CSS CLASS -->
+      <figure class="worker-face">
+        <img src="img/worker/{{ .logo }}" alt="worker-face" />
+        <figcaption>
+          <strong class="worker-name">{{ .name }}</strong>
+          <em class="worker-title">{{ .date }}</em>
+        </figcaption>
+      </figure>
+      <div class="worker-content">
+        <div class="worker-quote-mark">
+          {{ partial "icons/icon-quote-mark.html" . }}
+        </div>
+        <div>I realize {{ .tasks }},</div>
+        <div>I developpe my {{ .skill }},</div>
+        <div>{{ .quote }}</div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="worker-controls">
+    <div class="worker-control-next">
+      {{ partial "icons/icon-next.html" . }}
+    </div>
+    <div class="worker-control-prev">
+      {{ partial "icons/icon-prev.html" . }}
+    </div>
+  </div>
+  <div class="workers-logos">
+    {{ range $i, $e := .Site.Data.worker.list }} {{ if eq $i 0 }}
+    <p class="worker-logo active-worker">{{ .title }}</p>
+    {{ else }}
+    <p class="worker-logo">{{ .title }}</p>
+    {{ end }} {{ end }}
+  </div>
+</section>

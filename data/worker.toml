@@ -1,0 +1,29 @@
+# Section title
+title = "Experiences"
+
+[[list]]
+    logo   = "bouyguestelecom.png"
+    name   = "Junior radiofrenquence engineer"
+    title  = "Bouygues Telecom"
+    date   = "09/2021 - 08/2021"
+    tasks  = "Expertise in mobile network radio configurations, Regulatory, contractual and technical analysis, Realization of radio KPI"
+    skill  = "Professional communication"
+    quote  = "I found this experiences very interresting beceause I must have a global vision on the radio infrastructure to negiciate with the GO or others operators and explain the situation to our engineering teams"
+
+[[list]]
+    logo   = "TDF.png"
+    name   = "Operation technician"
+    title  = "TDF"
+    date   = "09/2016 - 08/2018"
+    tasks  = "Calibration and maintenance of TV and FM transmitters, Writing and explanation of the architecture of the DTT coding and broadcasting chain"
+    skill  = "Radio knowledge infrastructures"
+    quote  = "What better job ! I had work on **all radiofrequence technologies** (fiber, FH, TV, FM, Satelite) and THE best location : **The Eiffel Tower**"
+
+[[list]]
+    logo   = "terre.png"
+    name   = "Team leader"
+    title  = "French army"
+    date   = "Since 02/2017"
+    tasks  = "Team management, Activity management, Realization of Sentinel and Vigipirate mission"
+    skill  = "Team spirit"
+    quote  = "**While we all felt that Travis was a great** asset to our team — and really"
